@@ -72,7 +72,7 @@ public class LoggingRebinder implements ApplicationListener<EnvironmentChangeEve
 		}
 	}
 
-	private void setLogLevel(LoggingSystem system, Environment environment, String name, String level) {
+	private void setLogLevel2(LoggingSystem system, Environment environment, String name, String level) {
 		try {
 			if (name.equalsIgnoreCase("root")) {
 				name = null;
