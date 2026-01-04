@@ -37,7 +37,7 @@
 		<dependency>
 			<groupId>com.stoyanr</groupId>
 			<artifactId>evictor</artifactId>
-			<version>${evictor.version}</version>
+			<version>1.0.1<</version>
 		</dependency>
 	</dependencies>
 </project>
