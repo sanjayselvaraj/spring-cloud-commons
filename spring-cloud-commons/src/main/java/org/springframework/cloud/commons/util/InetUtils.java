@@ -72,7 +72,7 @@ public class InetUtils implements Closeable {
 		return hostInfo;
 	}
 
-	public @Nullable InetAddress findFirstNonLoopbackAddress() {
+	public @Nullable InetAddress findFirstNonLoopbackAddresses() {
 		InetAddress result = null;
 		try {
 			int lowest = Integer.MAX_VALUE;
